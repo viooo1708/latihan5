@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_marginTop="50sp"
+            android:gravity="center"
+            android:padding="25sp"
+            android:text="Tugas Latihan 5"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnkonversiSuhu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="50sp"
+            android:layout_marginRight="10sp"
+            android:text="Konversi Suhu"
+            android:backgroundTint="#16325B"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btndiskonBelanja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="35sp"
+            android:layout_marginRight="10sp"
+            android:text="Diskon Belanja"
+            android:backgroundTint="#16325B"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/btnHitung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="35sp"
+            android:layout_marginRight="10sp"
+            android:text="Hitung Luas Permukaan dan Volume"
+            android:backgroundTint="#16325B"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/btnGanjilAtauGenap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="35sp"
+            android:layout_marginRight="10sp"
+            android:text="Ganjil atau Genap"
+            android:backgroundTint="#16325B"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KonfersiSuhu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:text="Konversi Suhu"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/inputSuhu"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:ems="10"
+            android:hint="Masukkan suhu celsius"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnKonversi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Konversi"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:id="@+id/outfahrenheit"
+            android:layout_width="356dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="10dp"
+            android:text="Fahrenheit :"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/outkelvin"
+            android:layout_width="358dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="10dp"
+            android:text="Kelvin :"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/outreamur"
+            android:layout_width="358dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="10dp"
+            android:text="Reamur :"
+            android:textSize="20dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
